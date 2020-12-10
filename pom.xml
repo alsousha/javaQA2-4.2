@@ -81,11 +81,20 @@
                         <groupId>com.github.spotbugs</groupId>
                         <artifactId>spotbugs</artifactId>
                         <version>4.2.0</version>
+
                     </dependency>
 
                 </dependencies>
-
+                <executions>
+                    <execution>
+                        <id>spotbugs-check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
+
         </plugins>
 
     </build>
