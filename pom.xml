@@ -82,10 +82,22 @@
                         <artifactId>spotbugs</artifactId>
                         <version>4.2.0</version>
                     </dependency>
+
                 </dependencies>
+
             </plugin>
         </plugins>
+
     </build>
+<!--    <reporting>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>com.github.spotbugs</groupId>-->
+<!--                <artifactId>spotbugs</artifactId>-->
+<!--                <version>4.2.0</version>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </reporting>-->
 
 
 </project>
